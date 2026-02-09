@@ -7,4 +7,4 @@ def run_command(user_input):
     args = shlex.split(user_input)
     subprocess.call(args, shell=false)
 
-API_KEY = os.environ.get("GEMINI_API_KEY")
+API_KEY = os.environ.get("API_KEY")
